@@ -32,6 +32,9 @@
     self.navigationItem.title = @"详情";
     self.navigationItem.prompt = @"这是什么";
     
+    
+    //这样
+    
     self.view.backgroundColor = [UIColor cyanColor];
     [self initTabelView];
     
