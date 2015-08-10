@@ -10,4 +10,6 @@
 
 @interface TestViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *avatatIMG;
+
 @end

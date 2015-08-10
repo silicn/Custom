@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "UMFeedback.h"
+
 
 @interface AppDelegate ()
 

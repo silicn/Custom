@@ -8,6 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
+#import "MyQueue.h"
+
+typedef void (^completeBlock)();
+
+
 @interface OperationManager : NSObject
+
+
+
 
 @end

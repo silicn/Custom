@@ -10,4 +10,7 @@
 
 @interface MyQueue : NSOperationQueue
 
+- (instancetype)shareQueue;
++ (instancetype)shareQueue;
+
 @end

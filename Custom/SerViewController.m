@@ -8,7 +8,7 @@
 
 #import "SerViewController.h"
 
-@interface SerViewController ()
+@interface SerViewController ()<UITableViewDataSource,UITableViewDelegate>
 
 @end
 
@@ -16,13 +16,39 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor cyanColor];
+    
+    
+    UITableView *tableView =[[UITableView alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height) style:UITableViewStylePlain];
+    tableView.delegate = self;
+    tableView.dataSource = self;
+    [self.view addSubview:tableView];    
+    
     // Do any additional setup after loading the view from its nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 20;
 }
+
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *ceii = @"zheshi";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ceii];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ceii];
+    }
+    
+    cell.textLabel.text = [NSString  stringWithFormat:@"第 %ld 行",(long)indexPath.row];
+    return cell;
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];    
+}
+
 
 /*
 #pragma mark - Navigation
