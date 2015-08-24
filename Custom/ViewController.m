@@ -60,7 +60,7 @@
     
     [imageView loadURL:@"http://image.tianjimedia.com/uploadImages/2013/231/L7M86I8303J3.jpg"];
     
-    
+    //this is new a program for test
     
     
  //   WKWebView *webView = [[WKWebView alloc]init];
