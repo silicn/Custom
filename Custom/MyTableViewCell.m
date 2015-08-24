@@ -40,6 +40,7 @@
     if (self.tabelView == nil) {
         self.tabelView = [[UITableView alloc]initWithFrame:CGRectMake(60, 0, [UIScreen mainScreen].bounds.size.width - 120, 220) style:UITableViewStylePlain];
         self.tabelView.backgroundColor = [UIColor whiteColor];
+        self.tabelView.backgroundColor = [UIColor redColor];
         self.tabelView.delegate = self;
         self.tabelView.dataSource = self;
         [self addSubview:self.tabelView];
