@@ -20,11 +20,16 @@
 		975439B81B3917F8004060DF /* CustomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 975439B71B3917F8004060DF /* CustomTests.m */; };
 		97CD27311B4F769600ADBC3E /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97CD272F1B4F769600ADBC3E /* TestViewController.m */; };
 		97CD27321B4F769600ADBC3E /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97CD27301B4F769600ADBC3E /* TestViewController.xib */; };
+		97EC46EC1B7B56A800259337 /* Left.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97EC46EB1B7B56A800259337 /* Left.storyboard */; };
+		97EC46EF1B7B56FC00259337 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EC46EE1B7B56FC00259337 /* LeftViewController.m */; };
+		97EC46F21B7CD81E00259337 /* SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EC46F11B7CD81E00259337 /* SecViewController.m */; };
+		97EC46F51B7CD9A400259337 /* AntionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EC46F41B7CD9A400259337 /* AntionView.m */; };
 		97EC65971B60E6E9002C14A8 /* DefauatOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EC65961B60E6E9002C14A8 /* DefauatOperation.m */; };
 		97EC659A1B60EB94002C14A8 /* OperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EC65991B60EB94002C14A8 /* OperationManager.m */; };
 		97EC659D1B60ECE3002C14A8 /* MyQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EC659C1B60ECE3002C14A8 /* MyQueue.m */; };
 		97EFFB241B735CF900D204DD /* SerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97EFFB221B735CF900D204DD /* SerViewController.m */; };
 		97EFFB251B735CF900D204DD /* SerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97EFFB231B735CF900D204DD /* SerViewController.xib */; };
+		97F138E91B8334DE00D0C61D /* ActionImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F138E81B8334DE00D0C61D /* ActionImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +64,13 @@
 		97CD272E1B4F769600ADBC3E /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		97CD272F1B4F769600ADBC3E /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		97CD27301B4F769600ADBC3E /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		97EC46EB1B7B56A800259337 /* Left.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Left.storyboard; sourceTree = "<group>"; };
+		97EC46ED1B7B56FC00259337 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		97EC46EE1B7B56FC00259337 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		97EC46F01B7CD81E00259337 /* SecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecViewController.h; sourceTree = "<group>"; };
+		97EC46F11B7CD81E00259337 /* SecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecViewController.m; sourceTree = "<group>"; };
+		97EC46F31B7CD9A400259337 /* AntionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntionView.h; sourceTree = "<group>"; };
+		97EC46F41B7CD9A400259337 /* AntionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AntionView.m; sourceTree = "<group>"; };
 		97EC65951B60E6E9002C14A8 /* DefauatOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefauatOperation.h; sourceTree = "<group>"; };
 		97EC65961B60E6E9002C14A8 /* DefauatOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefauatOperation.m; sourceTree = "<group>"; };
 		97EC65981B60EB94002C14A8 /* OperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationManager.h; sourceTree = "<group>"; };
@@ -68,6 +80,8 @@
 		97EFFB211B735CF900D204DD /* SerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerViewController.h; sourceTree = "<group>"; };
 		97EFFB221B735CF900D204DD /* SerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerViewController.m; sourceTree = "<group>"; };
 		97EFFB231B735CF900D204DD /* SerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SerViewController.xib; sourceTree = "<group>"; };
+		97F138E71B8334DE00D0C61D /* ActionImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionImageView.h; sourceTree = "<group>"; };
+		97F138E81B8334DE00D0C61D /* ActionImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionImageView.m; sourceTree = "<group>"; };
 		A86FD82D50FFB160FDFAF0C1 /* Pods-Custom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Custom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Custom/Pods-Custom.debug.xcconfig"; sourceTree = "<group>"; };
 		D7BE41B6E8670057A810BC4C /* libPods-Custom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Custom.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -147,6 +161,15 @@
 				97EFFB211B735CF900D204DD /* SerViewController.h */,
 				97EFFB221B735CF900D204DD /* SerViewController.m */,
 				97EFFB231B735CF900D204DD /* SerViewController.xib */,
+				97EC46EB1B7B56A800259337 /* Left.storyboard */,
+				97EC46ED1B7B56FC00259337 /* LeftViewController.h */,
+				97EC46EE1B7B56FC00259337 /* LeftViewController.m */,
+				97EC46F01B7CD81E00259337 /* SecViewController.h */,
+				97EC46F11B7CD81E00259337 /* SecViewController.m */,
+				97EC46F31B7CD9A400259337 /* AntionView.h */,
+				97EC46F41B7CD9A400259337 /* AntionView.m */,
+				97F138E71B8334DE00D0C61D /* ActionImageView.h */,
+				97F138E81B8334DE00D0C61D /* ActionImageView.m */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -269,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				975439A71B3917F8004060DF /* Main.storyboard in Resources */,
+				97EC46EC1B7B56A800259337 /* Left.storyboard in Resources */,
 				975439AC1B3917F8004060DF /* LaunchScreen.xib in Resources */,
 				9739A9401B6A39AE003909B8 /* WatchStoryboard.storyboard in Resources */,
 				97CD27321B4F769600ADBC3E /* TestViewController.xib in Resources */,
@@ -325,13 +349,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				975439A41B3917F8004060DF /* ViewController.m in Sources */,
+				97EC46EF1B7B56FC00259337 /* LeftViewController.m in Sources */,
 				97EC659A1B60EB94002C14A8 /* OperationManager.m in Sources */,
+				97EC46F51B7CD9A400259337 /* AntionView.m in Sources */,
+				97EC46F21B7CD81E00259337 /* SecViewController.m in Sources */,
 				975439A11B3917F8004060DF /* AppDelegate.m in Sources */,
 				97CD27311B4F769600ADBC3E /* TestViewController.m in Sources */,
 				97EC65971B60E6E9002C14A8 /* DefauatOperation.m in Sources */,
 				97EFFB241B735CF900D204DD /* SerViewController.m in Sources */,
 				9739A9461B6B78A0003909B8 /* MyTableViewCell.m in Sources */,
 				9754399E1B3917F8004060DF /* main.m in Sources */,
+				97F138E91B8334DE00D0C61D /* ActionImageView.m in Sources */,
 				97EC659D1B60ECE3002C14A8 /* MyQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

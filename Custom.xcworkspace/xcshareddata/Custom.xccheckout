@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3E2D5B27-5F37-45D3-8BE8-26ABE7821E1C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Custom</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0C3006F2DF89B7F795297827F5647F7F7F264465</key>
+		<string>https://github.com/silicn/Custom.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Custom.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0C3006F2DF89B7F795297827F5647F7F7F264465</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/silicn/Custom.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0C3006F2DF89B7F795297827F5647F7F7F264465</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0C3006F2DF89B7F795297827F5647F7F7F264465</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Custom</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -6,12 +6,20 @@
 //  Copyright (c) 2015年 jiahao. All rights reserved.
 //
 
+
 #import "ViewController.h"
 #import <POP.h>
 #import "TestViewController.h"
 
 #import <WebKit/WebKit.h>
 #import <AFNetworking/AFNetworking.h>
+
+#import "LeftViewController.h"
+
+#import "ActionImageView.h"
+
+#import <UIImageView+WebCache.h>
+
 
 
 @interface ViewController ()
@@ -42,9 +50,17 @@
         
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer    alloc]initWithTarget:self action:@selector(goTOs)];
     [self.myView addGestureRecognizer:tap];
-    
-    
     [self addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
+    
+    ActionImageView *imageView = [[ActionImageView alloc]initWithFrame:CGRectMake(0,80, 200, 200)];
+    [self.view addSubview:imageView];
+  //  imageView.backgroundColor  =[UIColor orangeColor];
+    
+  //  [imageView sd_setImageWithURL:[NSURL URLWithString:@"http://www.tattoo77.com/uploads/allimg/121217/1-12121G43453108.jpg"]];
+    
+    [imageView loadURL:@"http://image.tianjimedia.com/uploadImages/2013/231/L7M86I8303J3.jpg"];
+    
+    
     
     
  //   WKWebView *webView = [[WKWebView alloc]init];
@@ -86,30 +102,45 @@
 }
 
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    NSLog(@"self.name = %@",self.name);
+}
+
+
 - (void)goTOs
 {
-
-//    self.name  = @"nihao ";
-//    return;
     TestViewController *testVC = [[TestViewController alloc]initWithNibName:@"TestViewController" bundle:nil];
     [self.navigationController pushViewController:testVC animated:YES];
 }
 
 - (IBAction)buttonPress:(UIButton *)sender {
     self.name = @"zheshi shenme ";
-    TestViewController *testVC = [[TestViewController alloc]initWithNibName:@"TestViewController" bundle:nil];
-    [self.navigationController pushViewController:testVC animated:YES];
-
+    [self setValue:@"再次复制" forKeyPath:@"name"];
+    
+//    TestViewController *testVC = [[TestViewController alloc]initWithNibName:@"TestViewController" bundle:nil];
+//    [self.navigationController pushViewController:testVC animated:YES];
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Left" bundle:nil];
+    
+    UINavigationController *leftVC = [storyboard instantiateViewControllerWithIdentifier:@"left"];
+    
+    [self.navigationController presentViewController:leftVC animated:YES completion:nil];   
+    
+}
+- (void)dealloc
+{
+    [self removeObserver:self forKeyPath:@"name"];
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
-//    POPBasicAnimation *basicAnimation = [POPBasicAnimation animation];
-//    basicAnimation.property = [POPAnimatableProperty propertyWithName:kPOPViewFrame];
-//    basicAnimation.toValue=[NSValue valueWithCGRect:CGRectMake(140, 140, 140, 140)];
-//    basicAnimation.duration = 5;
-//    
-//    [self.myView pop_addAnimation:basicAnimation forKey:@"nihao"];
+    POPBasicAnimation *basicAnimation = [POPBasicAnimation animation];
+    basicAnimation.property = [POPAnimatableProperty propertyWithName:kPOPViewFrame];
+    basicAnimation.toValue=[NSValue valueWithCGRect:CGRectMake(140, 140, 140, 140)];
+    basicAnimation.duration = 2;
+    
+    [self.myView pop_addAnimation:basicAnimation forKey:@"nihao"];
 }
 
 - (void)didReceiveMemoryWarning {

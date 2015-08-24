@@ -19,6 +19,7 @@ static dispatch_group_t jiahao_default_queue_group() {
     return jiahao_default_queue_group;
 }
 
+
 static dispatch_queue_t jiahao_default_queue() {
     static dispatch_queue_t jiahao_default_queue;
     static dispatch_once_t onceToken;
@@ -34,6 +35,12 @@ static dispatch_queue_t jiahao_default_queue() {
 
 @implementation DefauatOperation
 
-
+- (void)Test
+{
+    dispatch_async(jiahao_default_queue(), ^{
+        
+    });
+    
+}
 
 @end

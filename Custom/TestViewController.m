@@ -30,7 +30,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"详情";
-    self.navigationItem.prompt = @"这是什么";
+  //  self.navigationItem.prompt = @"这是什么";
     
     
     //这样
@@ -113,7 +113,6 @@
   //  cell.textLabel.text = [NSString stringWithFormat:@"%ld 层面",(long)indexPath.row];
     return cell;
 }
-
 
 - (IBAction)buttonClick:(UIButton *)sender {
         
