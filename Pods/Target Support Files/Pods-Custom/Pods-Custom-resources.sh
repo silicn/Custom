@@ -58,6 +58,14 @@ install_resource()
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "EGOTableViewPullRefresh/EGOTableViewPullRefresh/Resources/blackArrow.png"
+  install_resource "EGOTableViewPullRefresh/EGOTableViewPullRefresh/Resources/blackArrow@2x.png"
+  install_resource "EGOTableViewPullRefresh/EGOTableViewPullRefresh/Resources/blueArrow.png"
+  install_resource "EGOTableViewPullRefresh/EGOTableViewPullRefresh/Resources/blueArrow@2x.png"
+  install_resource "EGOTableViewPullRefresh/EGOTableViewPullRefresh/Resources/grayArrow.png"
+  install_resource "EGOTableViewPullRefresh/EGOTableViewPullRefresh/Resources/grayArrow@2x.png"
+  install_resource "EGOTableViewPullRefresh/EGOTableViewPullRefresh/Resources/whiteArrow.png"
+  install_resource "EGOTableViewPullRefresh/EGOTableViewPullRefresh/Resources/whiteArrow@2x.png"
   install_resource "UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/zh-Hans.lproj/UMFeedbackLocalizable.strings"
   install_resource "UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/bubble_min@2x.png"
   install_resource "UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/cancel@2x.png"
@@ -76,6 +84,14 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/umeng_fb_audio_play_default@2x.png"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "EGOTableViewPullRefresh/EGOTableViewPullRefresh/Resources/blackArrow.png"
+  install_resource "EGOTableViewPullRefresh/EGOTableViewPullRefresh/Resources/blackArrow@2x.png"
+  install_resource "EGOTableViewPullRefresh/EGOTableViewPullRefresh/Resources/blueArrow.png"
+  install_resource "EGOTableViewPullRefresh/EGOTableViewPullRefresh/Resources/blueArrow@2x.png"
+  install_resource "EGOTableViewPullRefresh/EGOTableViewPullRefresh/Resources/grayArrow.png"
+  install_resource "EGOTableViewPullRefresh/EGOTableViewPullRefresh/Resources/grayArrow@2x.png"
+  install_resource "EGOTableViewPullRefresh/EGOTableViewPullRefresh/Resources/whiteArrow.png"
+  install_resource "EGOTableViewPullRefresh/EGOTableViewPullRefresh/Resources/whiteArrow@2x.png"
   install_resource "UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/zh-Hans.lproj/UMFeedbackLocalizable.strings"
   install_resource "UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/bubble_min@2x.png"
   install_resource "UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/cancel@2x.png"

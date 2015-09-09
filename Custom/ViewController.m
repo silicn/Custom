@@ -19,6 +19,8 @@
 #import "ActionImageView.h"
 
 #import <UIImageView+WebCache.h>
+#import "SLImageViewController.h"
+#import "CropViewController.h"
 
 
 
@@ -121,12 +123,13 @@
 //    TestViewController *testVC = [[TestViewController alloc]initWithNibName:@"TestViewController" bundle:nil];
 //    [self.navigationController pushViewController:testVC animated:YES];
     
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Left" bundle:nil];
+//    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Left" bundle:nil];
+//    
+//    UINavigationController *leftVC = [storyboard instantiateViewControllerWithIdentifier:@"left"];
+//    
+//    [self.navigationController presentViewController:leftVC animated:YES completion:nil];   
     
-    UINavigationController *leftVC = [storyboard instantiateViewControllerWithIdentifier:@"left"];
-    
-    [self.navigationController presentViewController:leftVC animated:YES completion:nil];   
-    
+    [self.navigationController pushViewController:[[CropViewController alloc]init] animated:YES];
 }
 - (void)dealloc
 {

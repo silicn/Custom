@@ -4,17 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-Custom-AFNetworking.xcscheme</key>
+		<key>AFNetworking.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Custom-UMengFeedback.xcscheme</key>
+		<key>EGOTableViewPullRefresh.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-Custom-pop.xcscheme</key>
+		<key>MBProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -24,15 +24,30 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UMengFeedback.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>pop.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>07FCE1A26C54855D9BAB14C5D9A34EFC</key>
+		<key>0553528F25F545784AA290E090C7B3C6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>374FA110AB1E33EFB8C7EFC315133392</key>
+		<key>21938BABF9B9C8DDF69561E9DB8AE08B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -47,32 +62,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5C37225A690208C89B2BBEAB</key>
+		<key>572571312E00FF9F3BC43253A659FFD9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>94277E2749E615697B16806F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>A8163D747B9F89DCAF647451</key>
+		<key>684D90718BC74BC9EE57D87631E72E5A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>C94C8E989473A344A661794AF635DC80</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>CEB3BE40DEE2E9F4E4F148076F1CA36F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F18193B09D779E5B6D0CB736</key>
 		<dict>
 			<key>primary</key>
 			<true/>

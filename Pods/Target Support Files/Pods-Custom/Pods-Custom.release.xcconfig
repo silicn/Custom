@@ -1,8 +1,8 @@
 CLANG_CXX_LANGUAGE_STANDARD = c++11
 CLANG_CXX_LIBRARY = libc++
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/MBProgressHUD" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/UMengFeedback" "${PODS_ROOT}/Headers/Public/pop"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/EGOTableViewPullRefresh" "${PODS_ROOT}/Headers/Public/MBProgressHUD" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/UMengFeedback" "${PODS_ROOT}/Headers/Public/pop"
 LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/UMengFeedback/**" "$(PODS_ROOT)/UMengFeedback/**"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/MBProgressHUD" -isystem "${PODS_ROOT}/Headers/Public/SDWebImage" -isystem "${PODS_ROOT}/Headers/Public/UMengFeedback" -isystem "${PODS_ROOT}/Headers/Public/pop"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"MBProgressHUD" -l"SDWebImage" -l"UMFeedback" -l"UMOpus" -l"UMengFeedback" -l"c++" -l"pop" -framework "AVFoundation" -framework "CoreGraphics" -framework "ImageIO" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/EGOTableViewPullRefresh" -isystem "${PODS_ROOT}/Headers/Public/MBProgressHUD" -isystem "${PODS_ROOT}/Headers/Public/SDWebImage" -isystem "${PODS_ROOT}/Headers/Public/UMengFeedback" -isystem "${PODS_ROOT}/Headers/Public/pop"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"EGOTableViewPullRefresh" -l"MBProgressHUD" -l"SDWebImage" -l"UMFeedback" -l"UMOpus" -l"UMengFeedback" -l"c++" -l"pop" -framework "AVFoundation" -framework "CoreGraphics" -framework "ImageIO" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration"
 PODS_ROOT = ${SRCROOT}/Pods
