@@ -21,6 +21,14 @@
     
     self.navigationItem.title = @"弹出视图";
     
+    
+    UITextView *textView = [[UITextView alloc]initWithFrame:CGRectMake(10, 100, 300, 100)];
+    
+    textView.text = @"shishishdiashdasihdoasihdsaiodhasoidhasidhaisdhiasdhasiodhasidhioasdhaoishdasidhaiosdhaisdhaisdhaisdhaisdhiasodhasidhiasdhaisdhasidhasidhasidhasiodhaisodhaisdhasiodhiashdiashdiasdhiashdcjhaoidhasnsciosdasdknscoiandaiosdoiajsidiaosdhiashdiashdiasdhaisdhaisdhiasdhsaidhiasdhiasdhasiohdiasdhasoidhasiodhasiodaisdhiaosdhasodasiosaiodhasoidhasidhaisdhiasdhasiodhasidhioasdhaoishdasidhaiosdhaisdhaisdhaisdhaisdhiasodhasidhiasdhaisdhasidhasidhasidhasiodhaisodhaisdhasiodhiashdiashdiasdhiashdcjhaoidhasnsciosdasdknscoiandaiosdoiajsidiaosdhiashdiashdiasdhaisdhaisdhiasdhsaidhiasdhiasdhasiohdiasdhaso";
+    textView.autoresizingMask = UIViewAutoresizingFlexibleHeight;
+    [self.view addSubview:textView];
+    textView.backgroundColor  = [UIColor cyanColor];
+    
     // Do any additional setup after loading the view.
 }
 

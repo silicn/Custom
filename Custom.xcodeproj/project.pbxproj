@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		54AEF5D036BD4BF799A85EAC /* libPods-Custom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7BE41B6E8670057A810BC4C /* libPods-Custom.a */; };
 		9739A93E1B6A3900003909B8 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9739A93D1B6A3900003909B8 /* WatchKit.framework */; };
-		9739A9401B6A39AE003909B8 /* WatchStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9739A93F1B6A39AE003909B8 /* WatchStoryboard.storyboard */; };
 		9739A9461B6B78A0003909B8 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9739A9451B6B78A0003909B8 /* MyTableViewCell.m */; };
 		9754399E1B3917F8004060DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9754399D1B3917F8004060DF /* main.m */; };
 		975439A11B3917F8004060DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 975439A01B3917F8004060DF /* AppDelegate.m */; };
@@ -58,7 +57,6 @@
 /* Begin PBXFileReference section */
 		221A887F0CA205EC64D3AC37 /* Pods-Custom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Custom.release.xcconfig"; path = "Pods/Target Support Files/Pods-Custom/Pods-Custom.release.xcconfig"; sourceTree = "<group>"; };
 		9739A93D1B6A3900003909B8 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
-		9739A93F1B6A39AE003909B8 /* WatchStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WatchStoryboard.storyboard; sourceTree = "<group>"; };
 		9739A9441B6B78A0003909B8 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
 		9739A9451B6B78A0003909B8 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
 		975439981B3917F8004060DF /* Custom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Custom.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -191,7 +189,6 @@
 				97EC659C1B60ECE3002C14A8 /* MyQueue.m */,
 				9739A9441B6B78A0003909B8 /* MyTableViewCell.h */,
 				9739A9451B6B78A0003909B8 /* MyTableViewCell.m */,
-				9739A93F1B6A39AE003909B8 /* WatchStoryboard.storyboard */,
 				97EFFB211B735CF900D204DD /* SerViewController.h */,
 				97EFFB221B735CF900D204DD /* SerViewController.m */,
 				97EFFB231B735CF900D204DD /* SerViewController.xib */,
@@ -349,7 +346,6 @@
 				975439AC1B3917F8004060DF /* LaunchScreen.xib in Resources */,
 				97EE73AC1B9D841200838429 /* pic3.jpg in Resources */,
 				97F3E28F1B9C3607005B18B4 /* SLImageViewController.xib in Resources */,
-				9739A9401B6A39AE003909B8 /* WatchStoryboard.storyboard in Resources */,
 				97CD27321B4F769600ADBC3E /* TestViewController.xib in Resources */,
 				97EE73AB1B9D841200838429 /* pic2.jpg in Resources */,
 				97F3E29E1B9C40F1005B18B4 /* DetaiImageTableViewController.xib in Resources */,

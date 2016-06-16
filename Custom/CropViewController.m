@@ -83,7 +83,7 @@
 
 - (void)tap:(UITapGestureRecognizer *)tap
 {
-    self.view convertRect:<#(CGRect)#> fromView:<#(UIView *)#>
+    
 }
 
 - (void)didReceiveMemoryWarning {
